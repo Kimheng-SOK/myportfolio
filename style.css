@@ -1,0 +1,52 @@
+h1{
+    background-color: rgb(196, 196, 231);
+}
+
+p{
+    font-size: medium;
+    font-style: bold;
+    color: green
+}
+
+h2{
+    background-color: rgb(196, 196, 231);
+}
+
+h3{
+    background-color: cornflowerblue;
+}
+
+ul li{
+    color:rgb(30, 96, 154)
+}
+
+h4{
+    color: red
+}
+
+table{
+    color: rgb(234, 11, 127)
+}
+fieldset legend{
+    font-size: large;
+    color: red;
+}
+
+fieldset{
+    background-color: rgb(202, 187, 176);
+    font-style: italic
+}
+
+fieldset label{
+    color: red;
+}
+
+fieldset input{
+    background-color: pink;
+    color: rgb(250, 248, 248);
+}
+
+fieldset button:hover{
+    background-color: blue;
+    color: white;
+}
