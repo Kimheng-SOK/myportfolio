@@ -1,19 +1,35 @@
 h1{
-    background-color: rgb(196, 196, 231);
+    background-color: white;
+    color: blue;
+
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+}
+
+div p{
+    font-size: medium;
+    font-style: bold;
+    color: black;
+    text-align: center;
 }
 
 p{
     font-size: medium;
     font-style: bold;
-    color: green
+    color: green;
 }
 
 h2{
     background-color: rgb(196, 196, 231);
+    border: 2px solid black;
+    padding: 10px;;
 }
 
 h3{
-    background-color: cornflowerblue;
+    background-color: rgb(7, 11, 18);
+    color: white;
+    border-style: outset;
 }
 
 ul li{
@@ -21,7 +37,9 @@ ul li{
 }
 
 h4{
-    color: red
+    color: red;
+    padding: 2px solid black;
+    display: inline-block;
 }
 
 table{
