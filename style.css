@@ -42,7 +42,8 @@ h4{
 }
 
 table{
-    color: rgb(234, 11, 127)
+    color: rgb(234, 11, 127);
+    margin: auto;
 }
 fieldset legend{
     font-size: large;
