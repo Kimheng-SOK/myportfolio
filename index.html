@@ -3,35 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
 </head>
 <body>
-    <div class="bg-orange-200 wrapper w-full h-96">
-        <header class="flex justify-center items-center">
-            <div class="mt-5 rounded-lg wrapper w-5/6 h-[65px] bg-white flex justify-between items-center" >
-                <div class="ml-5">
-                    <p class="text-xl font-bold">Portfolio</p>
+        <div class="flex justify-center items-center h-screen w-full bg-gray-400">
+            <div class="flex flex-wrap flex-col justify-evenly items-center bg-red-200 h-[500px] w-[400px] border-8 border-rose-400 border-double rounded-lg">
+                <div>
+                    <h2 class="font-serif font-bold text-[60px] italic ">Counter</h2>
                 </div>
-    
-                <div class="mr-5 flex justify-between flex-wrap items-center">
-                    <p class="mr-8 font-bold">Home</p>
-                    <p class="mr-8 ">Contact Us</p>
-                    <p class="mr-8">Services</p>
-                    <Button class="btn rounded-lg w-[120px] h-[45px] bg-orange-500 hover:bg-blue-200 text-white">Contact Us</Button>
+                <div>
+                    <h1 id="display" class="font-mono text-green-500 text-[100px] font-bold italic">0</h1>
+                </div>
+                <div class="flex justify-evenly items-center w-full">
+                    <button id="btn1" class="border-4 border-double border-black shadow-lg rounded-lg w-[100px]">DECREASE</button>
+                    <button id="btn2" class="border-4 border-dotted border-black shadow-lg rounded-lg w-[80px]">RESET</button>
+                    <button id="btn3" class="border-4 border-gray-400 shadow-lg bg-gray-400 rounded-lg w-[100px] hover:bg-blue-400 ">INCREASE</button>
                 </div>
             </div>
-        </header>
-        <body">
-            <div class="mt-10 ml-[100px]">
-                <p class="font-bold text-[45px]">Hy! I Am</p>
-                <p class="font-bold text-[45px]">SOK KIMHENG</p>
-                <p>Web Developer and Network Engineering</p>
-            </div>
-            <div class="mt-10 ml-[100px]">
-                <button class="bg-orange-500 w-[100px] h-[35px] rounded-lg text-white">Hire me</button>
-            </div>
-        </body>
-    </div>
+        </div>
 </body>
 </html>
