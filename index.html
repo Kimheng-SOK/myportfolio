@@ -16,15 +16,12 @@
                     <h1 id="display" class="font-mono text-green-500 text-[100px] font-bold italic">0</h1>
                 </div>
                 <div class="flex justify-evenly items-center w-full">
-                    <button id="btn1" onclick="Counter.decrement()" class="border-4 border-double border-black shadow-lg rounded-lg w-[100px]">DECREASE</button>
-                    <button id="btn2" onclick="Counter.reset()" class="border-4 border-dotted border-black shadow-lg rounded-lg w-[80px]">RESET</button>
-                    <button id="btn3" onclick="Counter.increment()" class="border-4 border-gray-400 shadow-lg bg-gray-400 rounded-lg w-[100px] hover:bg-blue-400 ">INCREASE</button>
+                    <button id="btn1" class="border-4 border-double border-black shadow-lg rounded-lg w-[100px]">DECREASE</button>
+                    <button id="btn2" class="border-4 border-dotted border-black shadow-lg rounded-lg w-[80px]">RESET</button>
+                    <button id="btn3" class="border-4 border-gray-400 shadow-lg bg-gray-400 rounded-lg w-[100px] hover:bg-blue-400 ">INCREASE</button>
                 </div>
             </div>
         </div>
-
-        <script>
-            document.getElementById("display").innerHTML = Counter.getNumber();
-        </script>
+        <script src = "script.js"></script>
 </body>
 </html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen w-full">
+        <div class="flex flex-col justify-center items-center h-[600px] w-[350px] bg-gray-200 border-4 border-black">
+            <div class="flex items-center h-[50px] w-[330px] bg-white">
+                <p class="ml-5 font-bold font-mono text-blue-600">Random Color Generator</p>
+            </div>
+            <div id="bgColor" class="flex-col justify-center items-start h-[530px] w-[330px] bg-blue-700">
+                <div class="ml-[5px] mt-[5px] mr-[5px] mb-[20px] flex flex-col justify-evenly items-center h-[100px] bg-black ">
+                    <h1 class="font-bold font-sans text-[30px] text-white">Background Color:</h1>
+                    <p id="display_text" class="font-bold font-sans text-[30px] text-[#2336FB]">#2336FB</p>
+                </div>
+
+                <div class="mb-[5px] flex justify-center">
+                    <button id="btn1" class="mr-[10px] h-[35px] w-[100px] bg-black font-bold text-white hover:bg-red-200">GENERATE</button>
+                    <button id="btn2" class="h-[35px] w-[70px] border-2 rounded-lg font-bold text-white hover:bg-red-200">RESET</button>
+                </div>
+
+                <div class="flex-col justify-evenly h-[200px] w-full bg-white ">
+                    <div class="flex justify-start items-center h-[25px] w-full">
+                        <p class="w-[60px] text-[#2326FB]">#2336FB</p>
+                        <div class="ml-[15px] h-[13px] w-[12px] bg-[#2326FB] "></div>
+                    </div>
+                    <div class="flex justify-start items-center h-[25px] w-full">
+                        <p class="w-[60px] text-[#497068]">#497068</p>
+                        <div class="ml-[15px] h-[13px] w-[12px] bg-[#497068] "></div>
+                    </div>
+                    <div class="flex justify-start items-center h-[25px] w-full">
+                        <p class="w-[60px] text-[#599F96]">#599F96</p>
+                        <div class="ml-[15px] h-[13px] w-[12px] bg-[#599F96] "></div>
+                    </div >
+                    <div class="flex justify-start items-center h-[25px] w-full">
+                        <p class="w-[60px] text-[#1544C7]">#1544C7</p>
+                        <div class="ml-[15px] h-[13px] w-[12px] bg-[#1544C7] "></div>
+                    </div>
+                    <div class="flex justify-start items-center h-[25px] w-full">
+                        <p class="w-[60px] text-[#3542AF]">#3542AF</p>
+                        <div class="ml-[15px] h-[13px] w-[12px] bg-[#3542AF] "></div>
+                    </div>
+                    <div class="flex justify-start items-center h-[25px] w-full">
+                        <p class="w-[60px] text-[#15FCA9]">#15FCA9</p>
+                        <div class="ml-[15px] h-[13px] w-[12px] bg-[#15FCA9] "></div>
+                    </div>
+                    <div class="flex justify-start items-center h-[25px] w-full">
+                        <p class="w-[60px] text-[#10EF55]">#10EF55</p>
+                        <div class="ml-[15px] h-[13px] w-[12px] bg-[#10EF55] "></div>
+                    </div>
+                    <div class="flex justify-start items-center h-[25px] w-full">
+                        <p class="w-[60px] text-[#722031]">#722031</p>
+                        <div class="ml-[15px] h-[13px] w-[12px] bg-[#722031] "></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

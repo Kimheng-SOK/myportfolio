@@ -24,3 +24,26 @@ class Counter{
         console.log(this.number);
     }
 }
+
+const counter = new Counter();
+
+function updateDisplay(){
+    document.getElementById("display").innerHTML = counter.getNumber();
+}
+
+document.getElementById("btn1").addEventListener("click", function(){
+    counter.decrement();
+    updateDisplay();
+});
+
+document.getElementById("btn2").addEventListener("click", function(){
+    counter.reset();
+    updateDisplay();
+});
+
+document.getElementById("btn3").addEventListener("click", function(){
+    counter.increment();
+    updateDisplay();
+});
+
+updateDisplay();
