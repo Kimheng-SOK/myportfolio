@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex justify-center items-center bg-gray-200 h-screen">
+        <div class="flex flex-col flex-wrap justify-center items-center bg-white h-[400px] w-[400px] rounded-lg shadow-lg">
+            <h1 id="head" class="font-bold font-family-monospace text-[30px]"></h1>
+
+            <input id="n1" type="number" placeholder="Enter first number" class="mt-10 text-xl bg-pink-200 h-[50px] w-[230px] rounded-lg"><br>
+            <input type="number" id="n2" placeholder="Enter second number" class="text-xl bg-pink-200 h-[50px] w-[230px] rounded-lg "><br>     
+            <button onclick="displayResult()"  class="mt-5 rounded-lg h-[40px] w-[100px] bg-blue-200 hover:bg-orange-200">Click me</button><br>
+            <p id="result" class="font-bold font-family-monospace text-xl">The answer is: </p>
+            <!-- <p id="result" class="font-bold font-family-monospace text-xl"></p> -->
+        </div>
+    </div>
+    <script>
+        const text = "Welcome to Demo Lesson!";
+        let index = 0;
+        
+        function typeWriter() {
+            if (index < text.length) {
+                document.getElementById("head").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, 200);
+            }
+        }   
+
+        typeWriter();
+    </script>
+    <script src = "script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
